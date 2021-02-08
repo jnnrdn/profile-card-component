@@ -1,0 +1,15 @@
+.card {
+    width: 326px;
+    height: 374px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__stats {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
