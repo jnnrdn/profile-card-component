@@ -20,13 +20,13 @@ main {
     place-items: center;
     background-color: $dark-cyan;
     background-image: url(../assets/bg-pattern-top.svg), url(../assets/bg-pattern-bottom.svg);
-    background-position: -360px -360px, calc(100% + 400px) calc(100% + 320px);
+    background-position: -410px -355px, calc(100% + 412px) calc(100% + 311px);
     background-repeat: no-repeat, no-repeat;
     background-size: 622px, 622px;
 
     @media screen and (min-width: $large){
         background-size: 978px;
-        background-position: -275px -525px, calc(100% + 210px) calc(100% + 650px);
+        background-position: -285px -510px, calc(100% + 230px) calc(100% + 633px);
     }
 }
 
@@ -41,10 +41,10 @@ h1, h2 {
 }
 
 h1 {
-    margin: 8px 0 4px;
+    margin: 8px 0 2px;
 
     span {
-        margin-left: 4px;
+        margin-left: 6px;
         color: $light-blue;
         font-weight: normal;
     }
