@@ -2,14 +2,31 @@
     width: 326px;
     height: 374px;
     display: flex;
+    padding-top: 88px;
     text-align: center;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    background-color: white;
+    background-image: url(../assets/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 140px;
+    border-radius: 15px;
 
-    &__stats {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
+    &__main {
+        margin-bottom: 24px;
+    }
+
+}
+
+.stats {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 24px;
+    border-top: 1px solid $light-gray;
+    font-size: 10px;
+
+    &__label {
+        letter-spacing: 1.5px;
     }
 }
