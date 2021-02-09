@@ -32,10 +32,21 @@
     display: flex;
     justify-content: space-between;
     font-size: 10px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 
-    div {
+    span {
+        display: block;
         text-align: center;
         width: 83px;
+    }
+
+    &__value {
+        color: $dark-blue;
+        font-size: $text-regular;
+        font-weight: bold;
+        line-height: 1.2;
     }
 
     &__label {
