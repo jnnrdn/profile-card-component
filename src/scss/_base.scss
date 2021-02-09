@@ -15,9 +15,11 @@ body {
 
 main {
     width: 100vw;
-    height: 100vh;
     display: grid;
+    grid-template-rows: 100vh auto; /* Fallback for browsers that do not support Custom Properties */
+    grid-template-rows: calc(var(--vh, 1vh) * 100) auto;
     place-items: center;
+    padding: 20px;
     background-color: $dark-cyan;
     background-image: url(../assets/bg-pattern-top.svg), url(../assets/bg-pattern-bottom.svg);
     background-position: -410px -355px, calc(100% + 412px) calc(100% + 311px);
